@@ -1,0 +1,3 @@
+Task : 
+make five different function which do mathematical operations like +,*,/,%,- 
+and display result .  use parameterized function. 

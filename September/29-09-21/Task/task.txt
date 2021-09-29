@@ -1,0 +1,4 @@
+1. write a program to print natural from 1 to 20 using Anonymous function
+2. write a program to check whether no is even or odd using Function Expression and take the input from user.
+3. write a program to find the greater no among the given three no suing Arrow Function take the input from the user.
+4. write a program to check the no is positive or negative using IIFE take the input from the user.

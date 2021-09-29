@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Differnent tyes of create functions and scope and hoisting</title>
+</head>
+<body>
+    <script>
+       // let name = "abhi";
+        //javascript -  special type of code written for desire or certain task 
+        // there are two types 
+        // 1.built infunction 
+        // 2.user defined :-  
+    
+        // function show(num1,num2){   // formal meter 
+        //     document.write("hello world"+num1);
+        //     window.alert(num2);
+        // }
+
+        // show(10,20);  //actual parameter
+     //function  paramter   - 
+
+            //Default parameter setting
+        // function compare(num1=5,num2=0){
+        //     if(num1>num2){
+        //         document.write(num1+" is greater");
+        //     }else{
+        //         document.write(num2+"  is greater");
+        //     }
+        // }
+
+        // compare();
+
+        //rest parameter
+        // function show(...args){
+        //     document.write(args);
+        // }
+
+        // show(1,7,3,4,5,65,8,9);
+
+        //return statement 
+        // function addition(num1,num2){
+        //     let c = num1+num2;
+        //     return c;
+        // }
+        //  let result = addition(10,10);
+        // document.write(result);
+
+
+        //Differnent tyes of create functions 
+            //1. function show(){
+            //     document.write("hello world");
+            // }
+            
+            // show();
+
+
+           // 2. Function Expression
+        //      let myFun = function show(){
+        //                 document.write("hello world");
+        //             };
+        //    // let myFun = 10;
+
+        //    myFun();
+
+            //3. Anonymous function
+        //     let myFun = function (name){
+        //        document.write("hello world"+name);
+        //        return name;
+        //    } 
+
+        //     let name =   myFun("abhi");
+        //     document.write(name);
+
+        //4. Arrow Function 
+        // let myFun =  (name)=>{
+        //        document.write("hello world"+name);
+        //    } 
+        
+        //    myFun("abhi");
+
+        //5. IIFE - Immedieately invoked function expression
+        // (function show(a,b){
+        //        document.write(a,b,"hello world");
+        //    })(10,20);
+
+    //    let name = "abhi";  // global
+    //     document.write(name);
+
+    //     function show(){
+    //         var num1 = 10;  // local
+    //         window.alert(name);
+    //         document.write(num1);
+    //     }
+    //     show();
+    //     document.write(num1);
+
+        // let name="abhi"; //global
+        // function show(){
+        //     let name="rahul"; //local
+        //     document.write(name);
+        // }
+        // show();
+        // document.write(name);
+
+
+            //question what is o/p
+        // let num1 = 20;
+       
+        // function display(){
+        //     let num1 = 10;
+        //     document.write(num1); // 10
+        // }    
+    
+        // document.write(num1); // 20
+        // display();
+        // global
+        // local- a data with limited scope 
+       // scope -  access karu shakto too wala area 
+
+
+
+       //javascript variable hoisting 
+       // at the time of compile phase , declaration of variables goes to the top 
+        //code                     //at compile phase
+       var num1= 10;            var num1;
+       document.write(num1);    var num2;
+       var num2 = 30;           num1=10;
+                                document.write(num1);
+                                num2=30;
+    </script>
+</body>
+</html>

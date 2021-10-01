@@ -1,0 +1,4 @@
+Task :- 
+    Take 5 input from the user .  if it is number then print 
+    "You have typed number data" or if it is string then print
+    "You have typed string data".

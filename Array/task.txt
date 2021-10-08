@@ -1,0 +1,4 @@
+Task 1. 
+make array stored differnt names of student in it .
+display all names on screen . 
+

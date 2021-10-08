@@ -9,7 +9,7 @@
 </head>
 <body>
     <script>
-        //#1
+        //#1                //CORRECT AHE
 /*var numbers =function(){
     let i;
     for(i=1;i<=20;i++){
@@ -17,7 +17,7 @@
     }
 };
 numbers();*/
-//#2
+//#2                // 2nd task is wrong , i said function expression ,not a normal function 
 /*function num()
 {
     let i = window.prompt("Enter a Number");
@@ -28,14 +28,14 @@ numbers();*/
         document.write(+i+"is odd number")
     }
 };
-num();*/
-//#3
+num();*/    
+//#3                    CORRECT AHE
 /*var show = () => { 
     let num1=window.prompt("Enter the 1st Number");
     let num2=window.prompt("Enter the 2nd Number");
     let num3=window.prompt("Enter the 3rd Number");
     if(num1>num2 && num1>num3){
-        document.write(+num1+" is greater Number" );
+        document.write(+num1+" is greater Number" ); // here we don't need + in the starting of the variable as with others also .
     }
     else if(num2>num1 && num2>num3){
         document.write(+num2+ " is greater number");
@@ -45,12 +45,14 @@ num();*/
     }
 };
 show();*/
-//4
+//4             //  CORRECT AHE  , 
 (function(a=window.prompt('Enter number'))
 {
  (a<0)?document.write(+a+" is negative no."):document.write(+a+" is positive no.");
 })
 ();
+
+//same with this also 4th task solution , here we don't need + in the starting of the variable 
 
     </script>
 </body>
